@@ -26,8 +26,6 @@ on:
       - ".github/codeql/**"
       - ".github/workflows/codeql-scanning.yaml"
   merge_group:
-  schedule:
-    - cron: "0 9 * * *"
 
 env:
   MISE_VERSION: 2024.12.14
